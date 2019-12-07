@@ -1,2 +1,2 @@
 # glfw_flutter_embedder
-play flutter embedder with glfw
+gcc flutter.c glfw3.dll flutter_engine.dll -lopengl32 -I. -o flutter_glfw -mwindows -s
